@@ -4,8 +4,8 @@
 @version        0.0.1
 @description    Sets a maximum page width for /r/anime and adds a background behind it. Send feedback/issues to /u/geo1088.
 @author         Geo1088 (https://old.reddit.com/message/compose?to=geo1088)
-@homepageURL    https://github.com/Geo1088/r-anime-bg-image
-@supportURL     https://github.com/Geo1088/r-anime-bg-image/issues
+@homepageURL    https://github.com/Geo1088/r-anime-page-bg
+@supportURL     https://github.com/Geo1088/r-anime-page-bg/issues
 @updateURL      https://raw.githubusercontent.com/Geo1088/r-anime-page-bg/master/main.user.css
 @license        MIT
 @preprocessor   uso
@@ -55,7 +55,6 @@
 	}
 	/* These guys are outside the media query because they don't deal with weird margins */
 	html {
-		/* since :root is the HTML element this is kinda unnecessary but it makes the config consistent lol */
 		background: url(/*[[image-url]]*/) center/cover no-repeat fixed;
 		background-color: /*[[bg-color]]*/;
 		overflow-x: hidden; /* see #header::after */
